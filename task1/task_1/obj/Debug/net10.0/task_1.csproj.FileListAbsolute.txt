@@ -1,0 +1,14 @@
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.AssemblyInfoInputs.cache
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.AssemblyInfo.cs
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.csproj.CoreCompileInputs.cache
+C:\Users\Gyaru\source\repos\task_1\task_1\bin\Debug\net10.0\task_1.exe
+C:\Users\Gyaru\source\repos\task_1\task_1\bin\Debug\net10.0\task_1.deps.json
+C:\Users\Gyaru\source\repos\task_1\task_1\bin\Debug\net10.0\task_1.runtimeconfig.json
+C:\Users\Gyaru\source\repos\task_1\task_1\bin\Debug\net10.0\task_1.dll
+C:\Users\Gyaru\source\repos\task_1\task_1\bin\Debug\net10.0\task_1.pdb
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.dll
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\refint\task_1.dll
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.pdb
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\task_1.genruntimeconfig.cache
+C:\Users\Gyaru\source\repos\task_1\task_1\obj\Debug\net10.0\ref\task_1.dll
