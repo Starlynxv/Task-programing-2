@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jo2aV0POa6E=",
+  "dgSpecHash": "gr5vi/gAGlw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\VideojuegoAPI.csproj",
+  "projectFilePath": "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\VideojuegoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gyaru\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Gyaru\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

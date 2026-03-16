@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\VideojuegoAPI.csproj": {}
+    "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\VideojuegoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\VideojuegoAPI.csproj": {
+    "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\VideojuegoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\VideojuegoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\VideojuegoAPI.csproj",
         "projectName": "VideojuegoAPI",
-        "projectPath": "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\VideojuegoAPI.csproj",
+        "projectPath": "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\VideojuegoAPI.csproj",
         "packagesPath": "C:\\Users\\Gyaru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gyaru\\source\\repos\\VideojuegoAPI\\VideojuegoAPI\\obj\\",
+        "outputPath": "C:\\Users\\Gyaru\\Documents\\GitHub\\Task-programing-2\\task 2\\VideojuegoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -48,6 +49,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -94,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
