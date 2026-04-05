@@ -1,0 +1,6 @@
+@ItlaComplementaria_HostAddress = http://localhost:5033
+
+GET {{ItlaComplementaria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
