@@ -1,0 +1,34 @@
+<div style="background-color: #1e1e1e; color: white; padding: 20px; font-family: sans-serif;">
+  <h2>👥 Gestión de Clientes</h2>
+
+  <div style="margin-bottom: 20px;">
+    <input [(ngModel)]="nuevoCliente.firstName" placeholder="Nombre" style="margin-right: 10px;">
+    <input [(ngModel)]="nuevoCliente.lastName" placeholder="Apellido" style="margin-right: 10px;">
+    <input [(ngModel)]="nuevoCliente.phone" placeholder="Teléfono" style="margin-right: 10px;">
+    <input [(ngModel)]="nuevoCliente.email" placeholder="Correo" style="margin-right: 10px;">
+    <button (click)="guardarCliente()" style="background-color: #28a745; color: white; padding: 5px 10px; cursor: pointer;">
+      ➕ Guardar Cliente
+    </button>
+  </div>
+
+  <table border="1" style="width: 100%; text-align: left; border-collapse: collapse; background-color: #222;">
+    <thead style="background-color: #444;">
+      <tr>
+        <th style="padding: 10px;">ID</th>
+        <th style="padding: 10px;">Nombre</th>
+        <th style="padding: 10px;">Apellido</th>
+        <th style="padding: 10px;">Teléfono</th>
+        <th style="padding: 10px;">Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cliente of clientes; let i = index">
+        <td style="padding: 8px;">{{ i + 1 }}</td>
+        <td style="padding: 8px;">{{ cliente.firstName }}</td>
+        <td style="padding: 8px;">{{ cliente.lastName }}</td>
+        <td style="padding: 8px;">{{ cliente.phone }}</td>
+        <td style="padding: 8px;">{{ cliente.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,27 @@
+<div style="padding: 10px; font-family: 'Segoe UI', sans-serif;">
+  <h2 style="color: #ff9800; margin-bottom: 30px;">📊 Panel de Resumen</h2>
+
+  <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    
+    <div style="background-color: #222; padding: 20px; border-radius: 10px; width: 200px; border-left: 5px solid #007bff; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h4 style="margin: 0; color: #aaa;">Equipos Registrados</h4>
+      <p style="font-size: 2.5rem; margin: 10px 0 0 0; color: white; font-weight: bold;">{{ totalEquipos }}</p>
+    </div>
+
+    <div style="background-color: #222; padding: 20px; border-radius: 10px; width: 200px; border-left: 5px solid #28a745; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h4 style="margin: 0; color: #aaa;">En Inventario (Listos)</h4>
+      <p style="font-size: 2.5rem; margin: 10px 0 0 0; color: white; font-weight: bold;">{{ equiposDisponibles }}</p>
+    </div>
+
+    <div style="background-color: #222; padding: 20px; border-radius: 10px; width: 200px; border-left: 5px solid #17a2b8; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h4 style="margin: 0; color: #aaa;">Clientes Totales</h4>
+      <p style="font-size: 2.5rem; margin: 10px 0 0 0; color: white; font-weight: bold;">{{ totalClientes }}</p>
+    </div>
+
+    <div style="background-color: #222; padding: 20px; border-radius: 10px; width: 200px; border-left: 5px solid #dc3545; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h4 style="margin: 0; color: #aaa;">Préstamos Activos</h4>
+      <p style="font-size: 2.5rem; margin: 10px 0 0 0; color: white; font-weight: bold;">{{ prestamosActivos }}</p>
+    </div>
+
+  </div>
+</div>

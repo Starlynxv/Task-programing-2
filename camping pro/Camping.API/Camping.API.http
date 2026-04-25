@@ -1,0 +1,6 @@
+@Camping.API_HostAddress = http://localhost:5254
+
+GET {{Camping.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

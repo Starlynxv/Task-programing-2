@@ -1,0 +1,17 @@
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Data.deps.json
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Data.runtimeconfig.json
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Data.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Data.pdb
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Models.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\bin\Debug\net10.0\Camping.Models.pdb
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.csproj.AssemblyReference.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.AssemblyInfoInputs.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.AssemblyInfo.cs
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping..7AC9A558.Up2Date
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\refint\Camping.Data.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.pdb
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\Camping.Data.genruntimeconfig.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Data\obj\Debug\net10.0\ref\Camping.Data.dll

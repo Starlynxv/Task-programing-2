@@ -1,0 +1,53 @@
+<div style="background-color: #1e1e1e; color: white; padding: 20px; font-family: sans-serif; margin-top: 20px;">
+  <h2 style="color: #ff9800;">⛺ Control de Préstamos</h2>
+
+  <div style="margin-bottom: 20px; display: flex; gap: 10px;">
+    <select [(ngModel)]="nuevoPrestamo.customerId" style="padding: 5px; background: #333; color: white; border: 1px solid #555;">
+      <option [ngValue]="0" disabled>Selecciona un Cliente...</option>
+      <option *ngFor="let cliente of clientes" [ngValue]="cliente.id">
+        {{ cliente.firstName }} {{ cliente.lastName }}
+      </option>
+    </select>
+
+    <select [(ngModel)]="nuevoPrestamo.equipmentId" style="padding: 5px; background: #333; color: white; border: 1px solid #555;">
+      <option [ngValue]="0" disabled>Selecciona un Equipo...</option>
+      <ng-container *ngFor="let equipo of equipos">
+        <option *ngIf="equipo.equipmentStatus === 'Disponible'" [ngValue]="equipo.id">
+          {{ equipo.name }} - RD$ {{ equipo.pricePerDay }}
+        </option>
+      </ng-container>
+    </select>
+
+    <button (click)="guardarPrestamo()" style="background-color: #ff9800; color: white; border: none; padding: 5px 15px; cursor: pointer; border-radius: 4px;">
+      🚀 Registrar Alquiler
+    </button>
+  </div>
+
+  <table border="1" style="width: 100%; text-align: left; border-collapse: collapse; background-color: #222;">
+    <thead style="background-color: #444;">
+      <tr>
+        <th style="padding: 10px;">Préstamo #</th>
+        <th style="padding: 10px;">Cliente</th>
+        <th style="padding: 10px;">Equipo</th>
+        <th style="padding: 10px;">Estado</th>
+        <th style="padding: 10px; text-align: center;">Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let prestamo of prestamos; let i = index">
+        <td style="padding: 8px;">{{ i + 1 }}</td>
+        <td style="padding: 8px;">{{ obtenerNombreCliente(prestamo.customerId) }}</td>
+        <td style="padding: 8px;">{{ obtenerNombreEquipo(prestamo.equipmentId) }}</td>
+        <td style="padding: 8px; font-weight: bold;" 
+            [style.color]="prestamo.status === 'Activo' ? '#ff4c4c' : '#4caf50'">
+          {{ prestamo.status }}
+        </td>
+        <td style="padding: 8px; text-align: center;">
+          <button *ngIf="prestamo.status === 'Activo'" (click)="devolver(prestamo.id)" style="background-color: #17a2b8; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px;">
+            ↩️ Devolver (Revisar Daños)
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

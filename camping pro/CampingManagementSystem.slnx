@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Camping.API/Camping.API.csproj" />
+  <Project Path="Camping.Data/Camping.Data.csproj" />
+  <Project Path="Camping.Models/Camping.Models.csproj" />
+</Solution>

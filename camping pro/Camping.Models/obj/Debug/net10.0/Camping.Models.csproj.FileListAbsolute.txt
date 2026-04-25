@@ -1,0 +1,11 @@
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\bin\Debug\net10.0\Camping.Models.deps.json
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\bin\Debug\net10.0\Camping.Models.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\bin\Debug\net10.0\Camping.Models.pdb
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.AssemblyInfoInputs.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.AssemblyInfo.cs
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.csproj.CoreCompileInputs.cache
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\refint\Camping.Models.dll
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\Camping.Models.pdb
+C:\Users\Gyaru\source\repos\CampingManagementSystem\Camping.Models\obj\Debug\net10.0\ref\Camping.Models.dll
